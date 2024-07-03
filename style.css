@@ -20,9 +20,11 @@ a {
     }
 
     #header {
-    background-color: blue ;
+    background-color: #66CCFF;
     color: white;
     text-align: center;
+    padding: 10px;
+}
 
      #content {
     padding-left: 10px;
@@ -35,19 +37,22 @@ a {
 
     #nav ul {
     list-style-type: none;
+    padding: 0%;
  }
+
+#nav .selected{
+    font-weight: bold;
+}
+
     #main{
         width: 600px;
         float: right;
     }
-    
+
     #footer {
         clear: both;
         padding: 10px;
-        background-color: black;
+        background-color: #999999;
         color: white;
         text-align: right;
-
  }
-
-}
