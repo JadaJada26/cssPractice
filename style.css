@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -35,7 +36,11 @@ a {
     #nav ul {
     list-style-type: none;
  }
-
+    #main{
+        width: 600px;
+        float: right;
+    }
+    
     #footer {
         clear: both;
         padding: 10px;
